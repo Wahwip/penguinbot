@@ -1,0 +1,5 @@
+const commandToDelete = '1173626353472520333';
+
+// Deleting the command
+await client.guilds.cache.get(guildId)?.commands.delete(commandToDelete);
+console.log(`Command with ID ${commandToDelete} deleted successfully!`);
